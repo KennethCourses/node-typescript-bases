@@ -1,4 +1,6 @@
-const { getPokemonById } = require('./js-foundation/09-axios')
+const { buildLogger } = require("./plugins");
 
-getPokemonById(1)
-    .then(pokemon => console.log({ pokemon }));
+const logger = buildLogger('app.js');
+
+logger.log('Hello from app.js');
+logger.error('Error from app.js');
