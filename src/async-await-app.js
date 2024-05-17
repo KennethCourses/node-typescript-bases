@@ -4,4 +4,4 @@ const pokemonName = getPokemonById(-10)
 
 pokemonName
     .then(name => console.log({ name }))
-    .catch(err => console.log('ID invalido'))
+    .catch(err => console.log('ID invalido'));
