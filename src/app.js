@@ -1,1 +1,3 @@
-console.log('Hello World from Node!')
+const { emailTemplate } = require('./js-foundation/01-template');
+
+console.log(emailTemplate);
