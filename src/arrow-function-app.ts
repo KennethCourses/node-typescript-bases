@@ -1,4 +1,4 @@
-const { getUserById } = require("./js-foundation/03-callbacks");
+import { getUserById } from './js-foundation/04-arrow';
 
 getUserById(1, (err, user) => {
     if (err) {

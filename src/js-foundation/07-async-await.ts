@@ -1,4 +1,4 @@
-const getPokemonById = async (id) => {
+export const getPokemonById = async (id: number): Promise<string> => {
 
     const url = `https://pokeapi.co/api/v2/pokemon/${id}`;
 
@@ -6,8 +6,4 @@ const getPokemonById = async (id) => {
     const pokemon = await resp.json();
 
     return pokemon.name;
-}
-
-module.exports = {
-    getPokemonById,
 }

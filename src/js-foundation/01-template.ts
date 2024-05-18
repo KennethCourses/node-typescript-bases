@@ -1,4 +1,4 @@
-const emailTemplate = `
+export const emailTemplate = `
 <div>
     <h1>Hi, {{name}}</h1>
     <p>Im frontend developer</p>
@@ -6,7 +6,3 @@ const emailTemplate = `
     <p>Im learning {{technology}}</p>
 </div>
 `;
-
-module.exports = {
-    emailTemplate
-}

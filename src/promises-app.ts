@@ -1,4 +1,4 @@
-const { getPokemonById } = require('./js-foundation/06-promises.js')
+import { getPokemonById } from './js-foundation/06-promises';
 
 getPokemonById(11)
     .then((pokemonName) => { console.log({ pokemonName }) })
